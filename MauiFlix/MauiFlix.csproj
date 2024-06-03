@@ -63,8 +63,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Categorias\" />
-	  <Folder Include="Filmes\" />
+	  <MauiXaml Update="Categorias\Aventura.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\Fury.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>
